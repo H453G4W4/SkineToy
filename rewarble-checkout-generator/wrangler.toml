@@ -1,0 +1,12 @@
+name = "rewarble-checkout-generator"
+main = "src/worker.ts"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+[observability]
+enabled = true
+
+[vars]
+MERCHANT_PRIORITY = "skine"
+# PUBLIC_BASE_URL = "https://your-domain.example"
+# Secret: `npx wrangler secret put LINK_SIGNING_SECRET`

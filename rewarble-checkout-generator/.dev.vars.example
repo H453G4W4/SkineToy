@@ -1,0 +1,4 @@
+# Copy to .dev.vars (wrangler) or export in your shell (node). Never commit the real value.
+LINK_SIGNING_SECRET=replace-with-at-least-32-random-characters
+PUBLIC_BASE_URL=http://localhost:8787
+MERCHANT_PRIORITY=skine
