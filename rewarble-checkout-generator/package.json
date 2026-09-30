@@ -1,0 +1,31 @@
+{
+  "name": "rewarble-checkout-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generates one shareable, signed link that opens a prefilled merchant checkout for Rewarble Gift Cards.",
+  "scripts": {
+    "dev": "tsx watch src/node.ts",
+    "start": "tsx src/node.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "discover:skine": "tsx scripts/discover-skine.ts",
+    "prove:ab": "tsx scripts/prove-ab.ts",
+    "deploy": "wrangler deploy",
+    "selftest:ab": "echo 'Start: npx tsx scripts/mock-merchant.ts  then: npx tsx scripts/prove-ab.ts --merchant mock --catalog evidence/raw/mock.catalog.json --amount 170 --currency USD --line-selector li.line'"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "hono": "^4.6.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260930.2",
+    "@types/node": "^22.0.0",
+    "playwright-core": "^1.56.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0",
+    "wrangler": "^4.0.0"
+  }
+}

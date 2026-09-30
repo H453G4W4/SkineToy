@@ -1,0 +1,19 @@
+{
+  "origin": "https://skine.com",
+  "capturedAt": "2026-09-30T18:23:05.561Z",
+  "blocked": null,
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://skine.com/",
+  "log": [
+    "ERROR: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://skine.com/"
+  ],
+  "cookies": [],
+  "pages": [],
+  "network": [
+    {
+      "method": "GET",
+      "url": "https://skine.com/",
+      "resourceType": "document",
+      "initiatorFrame": "about:blank"
+    }
+  ]
+}

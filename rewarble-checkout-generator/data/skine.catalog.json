@@ -1,0 +1,8 @@
+{
+  "merchant": "skine",
+  "status": "NOT_DISCOVERED",
+  "discoveredAt": null,
+  "blocker": "Live discovery has not run yet: the build environment's network policy denied all egress to skine.com (CONNECT 403 from the environment proxy, not from Skine). Run `npm run discover:skine` from a network that can reach skine.com, review the draft, then commit it here.",
+  "products": [],
+  "checkoutInitializer": null
+}

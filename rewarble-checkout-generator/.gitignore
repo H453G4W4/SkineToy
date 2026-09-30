@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+evidence/raw/
+*.har
+data/*.draft.json
